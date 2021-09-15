@@ -1,0 +1,79 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  line-height: 1.4;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  padding: 1px 6px;
+  flex-basis: 3em;
+  font-weight: 700;
+  font-size: 0.6em;
+  min-width: fit-content;
+}
+
+ul {
+  padding: 0.5em 2em;
+  font-size: 0.8em;
+}
+
+a:link,
+a:visited {
+  color: rgb(0, 3, 77);
+  text-decoration: none;
+}
+
+.example {
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+
+.example__details h3 {
+  padding: 0.5em;
+  font-size: 1.4em;
+  text-align: center;
+  background: #cfe6ff;
+  margin-bottom: 0.3em;
+}
+
+.example__details p {
+  font-size: 0.8em;
+}
+.example:nth-of-type(2n) {
+  background-color: gainsboro;
+}
+
+.example__output {
+  background-color: gold;
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+  gap: 0.1em;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.links > a {
+  border: 1px solid;
+  padding: 5px 20px;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.links .active {
+  background-color: rgb(40, 40, 40);
+  color: white;
+}
